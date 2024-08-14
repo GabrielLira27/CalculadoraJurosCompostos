@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Juros Compostos</h1>
+        <label for="periodo">Período (meses):</label>
+        <input type="number" id="periodo" placeholder="Digite o período">
+        <label for="taxa">Taxa de juros (% a.a.):</label>
+        <input type="number" id="taxa" placeholder="Digite a taxa">
+        <label for="investimentoMensal">Investimento mensal:</label>
+        <input type="number" id="investimentoMensal" placeholder="Digite o valor">
+        <label for="investimentoTotal">Investimento total atual:</label>
+        <input type="number" id="investimentoTotal" placeholder="Digite o valor">
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
