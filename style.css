@@ -1,24 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #c8f3bb;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+
 .calculator {
-    background-color: #fff;
+    background-color: #cae7ff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
+    color: #666;
 }
+
+.taxasbc{
+    background-color: #fdf395;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    height: 130px;
+    width: 170px
+    
+}
+
+#selic{
+    width: 50px;
+    ;
+
+}
+
 
 label {
     color: #666;
     display: block;
     margin-bottom: 5px;
+
 }
 
 input {
@@ -27,8 +47,9 @@ input {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+    background-color: #e3ffdb96;
 }
+
 
 button {
     background-color: #4CAF50;
